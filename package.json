@@ -8,11 +8,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "-": "0.0.1",
+    "codemirror": "^5.64.0",
     "file-saver": "^2.0.5",
     "next": "10.2.3",
-    "react": "17.0.2",
+    "prop-types": "^15.6.0",
+    "react": "^17.0.2",
+    "react-animation-components": "^3.0.0",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
+    "react-load-animations": "^1.0.2",
+    "react-scroll-motion": "^0.2.1",
+    "react-transition-group": "^2.2.1",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7"
   },

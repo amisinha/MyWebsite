@@ -2,12 +2,14 @@ import React from 'react';
 import { DiFirebase, DiReact, DiZend, DiWindows, DiMongodb, DiPython, DiJira, DiGoogleCloudPlatform, DiJava} from 'react-icons/di';
 import { SiWebflow } from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle, Progress } from '../../styles/GlobalComponents';
+import { GridContainer } from '../TimeLine/TimeLineStyles';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, ProgressBar} from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id= "tech">
     <SectionDivider />
     <SectionTitle>My Skills</SectionTitle>
+    
    <List>
      <ListItem>
        <DiReact size= "2rem" />
@@ -83,6 +85,7 @@ const Technologies = () =>  (
        </ListContainer>
      </ListItem>
    </List>
+   
 
   </Section>
 );

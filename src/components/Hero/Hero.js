@@ -2,8 +2,9 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { List, ListItem, GridContainer } from './HeroStyles';
 import FileSaver from 'file-saver';
+
 const saveFile = () => {
   FileSaver.saveAs(
     process.env.REACT_APP_CLIENT_URL + "../../asset/Resume.pdf",
@@ -13,9 +14,18 @@ const saveFile = () => {
 
 
 const Hero = (props) => (
+ 
+
+
  <Section row nopadding>
    
-   <LeftSection>
+   <GridContainer>
+     <List>
+       <ListItem>
+   <img src="./images/img11.png" width="400" height="400"  />
+     <br/>
+   </ListItem>
+   <ListItem>
      <SectionTitle main center color="black">
        Hi I'm 
        Amisha Sinha
@@ -28,12 +38,16 @@ of algorithm development and Machine Learning concepts. Post Masters, I intend t
 knowledge while working with interdisciplinary IT organizations as an expert in Data Science tools. In the long run, 
 I want to develop expert system innovative prediction tools to assist the education and healthcare sectors worldwide.
      </SectionText>
-     
+   
+     </ListItem>
+     <ListItem>
      <Button onClick= {saveFile}>Download Resume</Button>
-
-   </LeftSection>
+     </ListItem>
+     </List>
+     </GridContainer>
 
  </Section>
+
 );
 
 export default Hero;

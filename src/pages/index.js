@@ -10,17 +10,14 @@ import { Section } from '../styles/GlobalComponents';
 const Home = () => {
   return (
     <Layout>
-      <Section grid>
-        <Hero />
-        <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./images/img11.png" width="400" height="400"  />
-    </div>
+      <Section grid> 
+    <Hero /> 
        </Section>   
        <Technologies /> 
        <Timeline />
+       <Acomplishments />
       <Projects />
-      <Acomplishments />
+ 
     </Layout>
   );
 };

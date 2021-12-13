@@ -1,5 +1,169 @@
 import styled from "styled-components"
+export const GridContainer = styled.section`
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+padding: 2rem;
+place-items: center;
+column-gap: 2rem;
+row-gap: 3rem;
+background: #FCCD04;
+@media ${(props) => props.theme.breakpoints.sm} {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-bottom: 0;
+}
 
+`
+export const List = styled.ul`
+  list-style-type: none;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 2rem 0;
+  
+  @media ${props => props.theme.breakpoints.lg}{
+    margin: 64px 0;
+  }
+
+  @media ${props => props.theme.breakpoints.md}{
+    margin: 4px 0;
+    gap: 4px
+  }
+  
+  @media ${props => props.theme.breakpoints.sm}{
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0;
+  }
+`
+export const Iz = styled.div`
+font-size: 11px;
+margin-left: 3px;
+margin-top:2px;
+color: #FCCD04;
+font-family:cursive;
+`;
+export const Io = styled.div`
+font-size: 11px;
+margin-left: 3px;
+margin-top:2px;
+color: #FCCD04;
+font-family:cursive;
+text-align:center;
+`;
+export const Ig = styled.div`
+font-size: 13px;
+margin-left: 3px;
+margin-top:2px;
+color: powder-blue;
+font-family:cursive;
+text-align:center;
+border-color: blue;
+box-shadow: 3px 3px 20px blue;
+`;
+export const Ic = styled.div`
+font-size: 11px;
+margin-left: 3px;
+margin-top:2px;
+color: #FCCD04;
+text-align: center;
+
+font-family:cursive;
+`;
+
+export const Ia = styled.div`
+font-size: 18px;
+color: white;
+text-align: center;
+font-family:cursive;
+`;
+
+export const ListContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 20px #ffffdc;
+  margin-left: 4px;
+  width:380px;
+
+  
+  background:black;
+
+  @media ${props => props.theme.breakpoints.sm}{
+    display: flex;
+    margin-left: 18px;
+  }
+`
+
+export const ListTitle = styled.h4`
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #FCCD04;
+  margin-bottom: 8px;
+  margin-left: 5px;
+
+@media ${props => props.theme.breakpoints.md}{
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media ${props => props.theme.breakpoints.sm}{
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  margin-bottom: 4px;
+}
+`
+export const Img = styled.img`
+flex: 1,
+width: '100%',
+height: '100%',
+resizeMode: 'contain',
+`
+
+export const ListParagraph = styled.p`
+  font-size: 12px;
+  line-height: 22px;
+  margin-left: 8px;
+  color: rgba(255, 255, 255, 0.75);
+  
+
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 14px;
+    line-height: 22px;
+  }
+`
+export const ProgressBar = styled.p`
+  color: yellow;
+`
+
+export const ListItem = styled.li`
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+
+@media ${props => props.theme.breakpoints.md}{
+  max-width: 203px;
+}
+
+@media ${props => props.theme.breakpoints.sm}{
+  margin-bottom: 14px;
+  max-width: 320px;
+  flex-direction: row;
+  display:flex;
+
+}
+`
+export const Grid = styled.div`
+background: grey;
+display:flex;
+`;
 export const Boxes = styled.div`
   width: 100%;
   display: grid;
