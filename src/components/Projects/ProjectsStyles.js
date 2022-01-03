@@ -15,6 +15,7 @@ padding: 2rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
+background: #696969;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -23,6 +24,57 @@ row-gap: 3rem;
 }
 
 `
+export const Button = styled.div`
+  width: ${({ alt }) => alt ? '100px' : '100px'};
+  height: ${({ alt }) => alt ? '40px' : '40px'};
+  border-radius: 80px;
+  font-size: ${({ alt }) => alt ? '12px' : '12px'};
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, yellow 0%, orange 100%)' : 'linear-gradient(270deg, yellow 0%, orange 100%)'};
+  cursor: pointer;
+  transition: 0.5s ease;
+  position: relative;
+  overflow: hidden;
+  margin-left:100px;
+  opacity: ${({ disabled }) => disabled ? '.5' : '1'};
+  &:hover {
+    color: white;
+    background: orange;
+  }
+
+
+`
+
+export const Iy = styled.div`
+font-size: 15px;
+color: white;
+text-align: center;
+font-family:cursive;
+`;
+export const Ia = styled.div`
+font-size: 12px;
+color: white;
+text-align: center;
+font-family:cursive;
+`;
+export const Iu = styled.div`
+font-size: 12px;
+color: white;
+text-align:justify;
+font-family:cursive;
+margin-left:3px;
+margin-right:3px;
+`;
+export const Iz = styled.div`
+font-size: 20px;
+color: #FCCD04;
+font-family:cursive;
+text-align:center;
+`;
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px yellow;
@@ -80,6 +132,80 @@ export const CardInfo = styled.p`
   
 }
 `;
+
+export const Container = styled.div`
+	position:fixed;
+	background: antiquewhite;
+	width: 33%;
+	height: auto;
+    
+	top: ${({openPos}) => (
+	{
+    	[CM_CENTER_CENTER]: '50%',
+    	[CM_TOP_LEFT]: '10%',
+    	[CM_TOP_CENTER]: '10%',
+    	[CM_TOP_RIGHT]: '10%'
+	}[openPos])};
+    
+	left: ${({openPos}) => (
+	{
+    	[CM_CENTER_CENTER]: '50%',
+    	[CM_TOP_LEFT]: '5%',
+    	[CM_TOP_CENTER]: '50%',
+    	[CM_TOP_RIGHT]: '95%'
+	}[openPos])};
+ 
+	transform: ${({openPos}) => (
+	{
+    	[CM_CENTER_CENTER]: 'translate(-50%,-50%)',
+    	[CM_TOP_LEFT]: 'translate(0,0)',
+    	[CM_TOP_CENTER]: 'translate(-50%,0)',
+    	[CM_TOP_RIGHT]: 'translate(-100%,0)'
+	}[openPos])};
+
+	border-radius: 10px;
+	padding: 0.75rem;
+	color: rgba(0,0,139, 0.7);
+`;
+
+
+
+export const ListContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 20px #FCCD04;
+  margin-left: 4px;
+  width:300px;
+
+  
+  background:black;
+
+  @media ${props => props.theme.breakpoints.sm}{
+    display: flex;
+    margin-left: 18px;
+  }
+`
+export const List = styled.ul`
+  list-style-type: none;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 2rem 0;
+  
+  @media ${props => props.theme.breakpoints.lg}{
+    margin: 64px 0;
+  }
+
+  @media ${props => props.theme.breakpoints.md}{
+    margin: 4px 0;
+    gap: 4px
+  }
+  
+  @media ${props => props.theme.breakpoints.sm}{
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0;
+  }
+`
 
 
 export const UtilityList = styled.ul`
