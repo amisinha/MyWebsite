@@ -185,7 +185,7 @@ export const Ia = styled.div`
 font-size: 11px;
 color:white;
 text-align: justify;
-font-family:cursive;
+font-family:Raleway;
 margin-left:3px;
 margin-right:3px;
 `;

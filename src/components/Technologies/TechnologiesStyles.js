@@ -70,6 +70,7 @@ export const ListTitle = styled.h4`
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #FCCD04;
+  font-family:Raleway;
   margin-bottom: 8px;
   margin-left: 5px;
 

@@ -178,7 +178,7 @@ height: 5;
 export const Iy = styled.div`
 font-size: 12px;
 color:#FCCD04;
-font-family:cursive;
+font-family:Raleway;
 margin-right: 3px;
 `;
 export const Ia = styled.div`

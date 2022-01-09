@@ -41,14 +41,14 @@ font-size: 11px;
 margin-left: 3px;
 margin-top:2px;
 color: #FCCD04;
-font-family:cursive;
+font-family:Raleway;
 `;
 export const Io = styled.div`
 font-size: 11px;
 margin-left: 3px;
 margin-top:2px;
 color: #FCCD04;
-font-family:cursive;
+font-family:Raleway;
 text-align:center;
 `;
 export const Ig = styled.div`
@@ -56,7 +56,7 @@ font-size: 13px;
 margin-left: 3px;
 margin-top:2px;
 color: powder-blue;
-font-family:cursive;
+font-family:Raleway;
 text-align:center;
 border-color: blue;
 box-shadow: 3px 3px 20px blue;
@@ -75,7 +75,7 @@ export const Ia = styled.div`
 font-size: 18px;
 color: white;
 text-align: center;
-font-family:cursive;
+font-family:Raleway;
 `;
 
 export const ListContainer = styled.div`

@@ -8,11 +8,15 @@ import Certi from '../components/CertificateAchievement/CertificateAchievement';
 import Achieve from '../components/Achievements/Achievements';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-import Footer from '../components/LastFooter/Lastfooter'
+import Footer from '../components/LastFooter/Lastfooter';
+import {Ring} from 'react-awesome-spinners'
+
 
 
 const Home = () => {
   return (
+   
+
     <Layout>
       <Section grid> 
       <Hero /> 
@@ -26,6 +30,10 @@ const Home = () => {
       <Achieve />
       <Footer/>
     </Layout>
+    
+    
+    
+   
     
   );
 };

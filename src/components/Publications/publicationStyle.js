@@ -132,10 +132,10 @@ export const Col = styled.div`
 flex: ${(props)=> props.size};
 `;
 export const It = styled.div`
-font-size: 14px;
+font-size: 13px;
 margin-left: 3px;
 margin-top:2px;
-font-family:cursive;
+font-family:Raleway;
 `;
 export const coloredLine = styled.div`
 color: yellow;
@@ -146,14 +146,14 @@ height: 5;
 export const Iy = styled.div`
 font-size: 12px;
 color:#FCCD04;
-font-family:cursive;
+font-family:Raleway;
 margin-right: 3px;
 `;
 export const Ia = styled.div`
 font-size: 11px;
 color:white;
 text-align: justify;
-font-family:cursive;
+font-family:Raleway;
 margin-left:3px;
 margin-right:3px;
 `;
@@ -161,6 +161,7 @@ export const Button = styled.div`
   width: ${({ alt }) => alt ? '100px' : '100px'};
   height: ${({ alt }) => alt ? '40px' : '40px'};
   border-radius: 80px;
+  font-family:Raleway;
   font-size: ${({ alt }) => alt ? '12px' : '12px'};
   font-weight: 500;
   display: flex;

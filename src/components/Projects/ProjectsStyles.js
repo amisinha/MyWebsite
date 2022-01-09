@@ -53,19 +53,19 @@ export const Iy = styled.div`
 font-size: 15px;
 color: white;
 text-align: center;
-font-family:cursive;
+font-family:Raleway;
 `;
 export const Ia = styled.div`
 font-size: 12px;
 color: white;
 text-align: center;
-font-family:cursive;
+font-family:Raleway;
 `;
 export const Iu = styled.div`
 font-size: 12px;
 color: white;
 text-align:justify;
-font-family:cursive;
+font-family:Raleway;
 margin-left:3px;
 margin-right:3px;
 `;

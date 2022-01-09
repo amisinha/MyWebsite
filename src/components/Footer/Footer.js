@@ -11,8 +11,8 @@ const Header = () =>  (
    <Container>
      <Div1>
        <Link href="/">
-         <a style={{ display:"flex", alignItems:"center", color:"black", marginBottom:"10px", fontFamily:'cursive'}}>
-           <span size="17px">Copyright ©2021</span>
+         <a style={{ display:"flex", alignItems:"center", color:"black", marginBottom:"10px", fontFamily:'Raleway'}}>
+           <span size="17px">Copyright ©2022</span>
          </a>
 
        </Link>

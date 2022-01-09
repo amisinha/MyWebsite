@@ -135,7 +135,7 @@ export const It = styled.div`
 font-size: 13px;
 margin-left: 3px;
 margin-top:2px;
-font-family:cursive;
+font-family:Raleway;
 font-style: italic;
 `;
 export const coloredLine = styled.div`
@@ -148,14 +148,14 @@ export const Iy = styled.div`
 font-size: 10px;
 color:#FCCD04;
 text-align: right;
-font-family:cursive;
+font-family:Raleway;
 margin-right: 3px;
 `;
 export const Ia = styled.div`
 font-size: 10px;
 color:#FCCD04;
 text-align: center;
-font-family:cursive;
+font-family:Raleway;
 `;
 
 

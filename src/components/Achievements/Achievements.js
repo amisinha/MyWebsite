@@ -2,6 +2,7 @@ import { Section, SectionDivider, SectionText, SectionTitle, Progress } from '..
 import { List, ListContainer, Ia,Img, ListItem,GridContainer, Button , ListParagraph, ListTitle, ProgressBar, Grid, It, Row, Col, coloredLine, Iy} from './AchievementStyle';
 import React from 'react';
 import Marquee from "react-easy-marquee";
+import {FiAward } from 'react-icons/fi';
 
 const Achievement=()=>(
     <Section id ="achieve">
@@ -11,10 +12,9 @@ const Achievement=()=>(
     
     
       <Marquee duration={10000} background="rgb(0,33,71)" height="80px" axis="X">
-        <Iy>Achievement1</Iy>
-        <Iy>Achievement2</Iy>
-        <Iy>Achievement3</Iy>
-        <Iy>Achievement4</Iy>
+        <Iy> <FiAward/> &nbsp;&nbsp;Top Academic scorer in 8th Semester: 10/10 GPA</Iy>
+        <Iy> <FiAward/>  &nbsp;&nbsp; Among the top 2% scorers in 5th Semester: 9.85/10 GPA</Iy>
+        <Iy > <FiAward/>  &nbsp;&nbsp; Writer at Writerscafe.org</Iy>
       </Marquee>
 
 

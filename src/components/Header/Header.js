@@ -10,7 +10,7 @@ const Header = () =>  (
    <Container>
      <Div1>
        <Link href="/">
-         <a style={{ display:"flex", alignItems:"center", color:"black", marginBottom:"10px", fontFamily:'cursive'}}>
+         <a style={{ display:"flex", alignItems:"center", color:"black", marginBottom:"10px", fontFamily:'cursive', weight:"700"}}>
            <DiBackbone size="3rem" /><span size="17px">Amisha Sinha</span>
          </a>
 

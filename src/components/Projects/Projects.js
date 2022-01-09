@@ -10,7 +10,7 @@ const Projects = () => (
 <Section id="project">
   <SectionDivider />
   <SectionTitle>
-Project
+Projects
   </SectionTitle>
   <GridContainer>
     <List>

@@ -51,7 +51,7 @@ export const NavLink = styled.a`
   line-height: 3;
   color: black;
   transition: 0.4s ease;
-  font-family: cursive;
+  font-family: Raleway;
 
   &:hover {
     color: white;
